@@ -110,6 +110,4 @@ def create_pipeline(
         ("preprocessor", ColumnTransformer(transformers=transformers)),
         ("classifier", classifier),
     ]
-    pipeline = Pipeline(steps)
-
-    return pipeline
+    return Pipeline(steps)
